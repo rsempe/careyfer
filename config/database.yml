@@ -1,0 +1,23 @@
+development:
+  adapter: mysql
+  database: careyfer_dev
+  encoding: utf8
+  username: root
+  password:
+  host: localhost
+
+test:
+  adapter: mysql
+  database: careyfer_test
+  encoding: utf8
+  username: root
+  password:
+  host: localhost
+
+production:
+  adapter: mysql
+  database: careyfer_prod
+  encoding: utf8
+  username: root
+  password:
+  host: localhost

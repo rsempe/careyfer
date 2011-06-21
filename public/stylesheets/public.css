@@ -1,0 +1,70 @@
+body {
+  background-color:#fff; color:#333232;
+  margin:auto; width:1000px; background-color:#eee;
+}
+
+
+/******** Default *********/
+
+ul {margin:0; padding:0;}
+ul li {list-style-type:none;}
+h1, h2, h3, h4, h5 {text-align:center;}
+body, p, ol, ul, td {
+  font-family:'trebuchet ms','verdana','arial';
+  font-size:13px; line-height:24px;
+  background-color:#eee;
+}
+p {text-align:justify;}
+a {color:#333232;}
+a:visited {color:#333232;}
+a:hover {color:#777;}
+
+/**************************/
+
+div.document {background-color:#fff; min-height:500px;}
+
+/******** Sidebar *********/
+
+.sidebar {
+  float:left; min-height:500px; width:200px; background-color:#fff;
+}
+.sidebar ul {background-color:#fff;}
+.sidebar .menu ul li {
+  margin-bottom:10px;
+}
+.sidebar .menu ul li a {
+  text-decoration:none; padding:6px;
+  font-size:14px; display:block; width:180px;
+}
+.sidebar .menu ul li a:hover, .sidebar .menu ul li a.active {
+  background-color:#545454; color:#fff;
+}
+
+.sidebar .information {margin-top:50px;}
+.sidebar .information p {padding:0 10px 0 50px;}
+.sidebar .information p.address {
+  background:url(/images/icons/address.png) no-repeat;
+  background-position:7px 50%;
+}
+.sidebar .information p.phone {
+  background:url(/images/icons/phone.png) no-repeat;
+  background-position:7px 50%;
+}
+.sidebar .information p.mail {
+  background:url(/images/icons/mail.png) no-repeat;
+  background-position:7px 50%;
+}
+
+/**************************/
+
+
+/******** Content *********/
+
+.content {
+  float:left; min-height:500px; padding-left:50px; width:700px;
+  min-height:500px; border-left:1px solid #ccc;
+  margin-bottom:30px; background-color:#fff;
+}
+.content #map_canvas {height:250px; width:70%; margin:auto;}
+
+/**************************/

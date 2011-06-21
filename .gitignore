@@ -1,0 +1,7 @@
+doc/
+log/*
+tmp/*
+nbproject
+db/schema.rb
+.DS_Store
+.bundle
