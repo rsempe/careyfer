@@ -43,7 +43,7 @@ div.document {background-color:#fff;}
 }
 .sidebar .menu ul li a {
   text-decoration:none; padding:6px;
-  font-size:14px; display:block; width:180px;
+  font-size:14px; display:block;
 }
 .sidebar .menu ul li a:hover, .sidebar .menu ul li a.active {
   background-color:#545454; color:#fff;
