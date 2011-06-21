@@ -79,3 +79,9 @@ div.document {background-color:#fff;}
 .content #map_canvas {height:250px; width:70%; margin:auto;}
 
 /**************************/
+
+/******** Footer *********/
+
+.footer {padding:10px; text-align:center; font-size:12px; font-style:italic;}
+
+/**************************/
