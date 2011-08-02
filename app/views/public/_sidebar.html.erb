@@ -1,8 +1,17 @@
 <div class="menu">
   <ul>
-    <li><%= link_to 'Présentation', index_public_path, :title => "Revenir à la page d'accueil", :class => is_active?("index") %></li>
-    <li><%= link_to 'Réalisations', projects_public_path, :title => "Voir ses réalisations", :class => is_active?("projects") %></li>
-    <li><%= link_to 'Atelier', workshop_public_path, :title => "Découvrir son atelier", :class => is_active?("workshop") %></li>
+    <li>
+      <%= link_to 'Présentation', index_public_path, :title => "Revenir à la page d'accueil",
+        :class => is_active?("index") %>
+    </li>
+    <li>
+      <%= link_to 'Réalisations', projects_public_path, :title => "Voir ses réalisations",
+        :class => is_active?("projects") %>
+    </li>
+    <li>
+      <%= link_to 'Atelier', workshop_public_path, :title => "Découvrir son atelier",
+        :class => is_active?("workshop") %>
+    </li>
   </ul>
 </div>
 
@@ -10,5 +19,7 @@
   <h3>Coordonnées</h3>
   <p class="address">495 boulevard Pasteur, 84200 Carpentras</p>
   <p class="phone">06 15 85 17 02</p>
-  <p class="mail"><a href="mailto:contact@careyfer.com">contact@careyfer.com</a></p>
+  <p class="mail">
+    <a href="mailto:contact@careyfer.com">contact@careyfer.com</a>
+  </p>
 </div>

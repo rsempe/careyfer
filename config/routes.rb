@@ -1,6 +1,6 @@
 module ActionController
   module Resources
-    class Resource #:nodoc:
+    class Resource
       def path
         @path ||= path_segment.blank? ? path_prefix.to_s : "#{path_prefix}/#{path_segment}"
       end
