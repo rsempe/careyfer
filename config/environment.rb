@@ -7,8 +7,8 @@ require File.join(File.dirname(__FILE__), 'boot')
 Rails::Initializer.run do |config|
   CONF = {
     :description => 'Careyfer est un site vitrine promouvant le travail en
-      ferronerie réalisé par Jean-Paul Carey',
-    :keywords => %w(jean-paul carey ferronerie fer careyfer forge manuel)
+      ferronnerie réalisé par Jean-Paul Carey',
+    :keywords => %w(jean-paul carey ferronnerie fer careyfer forge manuel)
   }
 
   config.time_zone = 'UTC'
