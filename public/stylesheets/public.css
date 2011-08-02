@@ -79,11 +79,18 @@ div.document {
 /******** Content *********/
 
 .content {
+  padding-top:10px;
   float:left; padding-left:50px; width:700px;
   min-height:550px; border-left:1px solid #ccc;
   margin-bottom:30px; background-color:#fff;
 }
-.content ul {background-color:#fff;}
+.content .home_picture {
+  -moz-border-radius:10px;
+  -webkit-border-radius:10px;
+  float:left;
+  margin:10px 20px 0 0;
+  border:3px solid #ccc;
+}
 .content p {background-color:#fff;}
 
 /**************************/
