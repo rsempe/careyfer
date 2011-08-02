@@ -65,7 +65,10 @@ div.document {background-color:#fff;}
   background-position:7px 50%;
 }
 .sidebar #map_canvas {
-  height:170px; width:95%; margin:auto;
+  height:170px;
+  width:95%;
+  margin:auto;
+  margin-top:40px;
 }
 
 /**************************/
@@ -74,8 +77,8 @@ div.document {background-color:#fff;}
 /******** Content *********/
 
 .content {
-  float:left; min-height:500px; padding-left:50px; width:700px;
-  min-height:500px; border-left:1px solid #ccc;
+  float:left; padding-left:50px; width:700px;
+  min-height:550px; border-left:1px solid #ccc;
   margin-bottom:30px; background-color:#fff;
 }
 .content ul {background-color:#fff;}
