@@ -1,18 +1,7 @@
 <div class="projects">
-  <div id="project1">
-    <%= image_tag("logo.png", :alt => "") %>
-    <p></p>
-  </div>
-
-  <div id="project2" style="display:none;">
-    <%= image_tag("banner.png", :alt => "") %>
-    <p></p>
-  </div>
-
-  <div id="project3" style="display:none;">
-    <%= image_tag("logo.png", :alt => "") %>
-    <p></p>
-  </div>
-
-  <%= link_to_function "Suivant", "GoNext();" %>
+  <% project_pictures.each do |picture| %>
+    <a href="/images/projects/<%= picture %>" rel="lightbox[projects]">
+      <%= image_tag("projects/#{picture}", :class => 'preview rounded') %>
+    </a>
+  <% end %>
 </div>

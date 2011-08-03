@@ -52,7 +52,7 @@ div.document {
   background-color:#545454; color:#fff;
 }
 
-.sidebar .information {margin-top:50px;}
+.sidebar .information {margin-top:30px;}
 .sidebar .information p {padding:0 10px 0 50px;}
 .sidebar .information p.address {
   background:url(/images/icons/address.png) no-repeat;
@@ -84,14 +84,31 @@ div.document {
   min-height:550px; border-left:1px solid #ccc;
   margin-bottom:30px; background-color:#fff;
 }
-.content .home_picture {
+.content img.preview {
+  width:20%;
+  height:20%;
+}
+.content img.rounded {
   -moz-border-radius:10px;
   -webkit-border-radius:10px;
   float:left;
-  margin:10px 20px 0 0;
+  margin:20px 20px 20px 0;
   border:3px solid #ccc;
 }
 .content p {background-color:#fff;}
+.content h3 {
+  padding:0 10px 0 50px;
+  font-size:16px;
+  text-align:left;
+  font-family:'helvetica';
+  font-style:italic;
+}
+.content .arrow {
+  width:18px;
+  height:18px;
+  margin-top:-4px;
+  vertical-align:middle;
+}
 
 /**************************/
 
