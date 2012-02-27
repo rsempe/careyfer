@@ -1,7 +1,10 @@
-<div class="projects">
-  <% project_pictures.each do |picture| %>
-    <a href="/images/projects/<%= picture %>" rel="lightbox[projects]">
-      <%= image_tag("projects/#{picture}", :class => 'preview rounded') %>
-    </a>
-  <% end %>
+<div class="image_carousel">
+  <div id="pictures">
+    <% project_pictures.each do |picture| %>
+      <a rel="fancybox" href="/images/projects/<%= picture %>">
+        <%= image_tag("projects/#{picture}", :size => '250x250') %>
+      </a>
+    <% end %>
+  </div>
+  <div class="clearfix"></div>
 </div>
