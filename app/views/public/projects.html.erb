@@ -2,7 +2,7 @@
   <div id="pictures">
     <% project_pictures.each do |picture| %>
       <a rel="fancybox" href="/images/projects/<%= picture %>">
-        <%= image_tag("projects/#{picture}", :size => '250x250') %>
+        <%= image_tag("projects/#{picture}", size: '250x250') %>
       </a>
     <% end %>
   </div>
