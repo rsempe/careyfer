@@ -10,4 +10,12 @@ class ApplicationController < ActionController::Base
   def set_title
     @title = "CareyFer - Ferronerie de Jean Paul Carey"
   end
+
+  def authenticate
+    if Rails.env.production?
+      authenticate_or_request_with_http_basic do |username, password|
+        username == "careyfer" && password == "badaboum"
+      end
+    end
+  end
 end
