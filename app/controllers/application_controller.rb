@@ -3,7 +3,16 @@ class ApplicationController < ActionController::Base
   helper :all
   protect_from_forgery
 
+  ###############
+  ### Filters ###
+  ###############
+
   before_filter :set_title
+  before_filter :authenticate
+
+  #######################
+  ### Private methods ###
+  #######################
 
   private
 
